@@ -1,0 +1,26 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+	<div style="display:table">
+
+		<div style="display:table-row">
+			<label style="display:table-cell">Размер массива</label>
+			<input style="width:100%" id="arrayLength" type="number" step="1" min="2" max="1024" value="30">
+		</div>
+	</div>
+	<label style="display:block;user-select:none">Выводить исходный массив<input type="checkbox"
+			id="bShowArrays"></label>
+	<button onclick="start()">Получить результаты</button>
+	<div>
+		<label id="resultLabel">Результаты:</label>
+		<div id="result" style="width:auto;height:auto;margin:10px">
+		</div>
+	</div>
+</body>
+
+</html>
